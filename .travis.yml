@@ -3,5 +3,5 @@ services:
   - docker
 
 script:
-  -docker build -t federiconembrini/node
-  -docker images federiconembrini/node
+  - docker build -t federiconembrini/node
+  - docker images federiconembrini/node
